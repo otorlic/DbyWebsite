@@ -8,8 +8,9 @@
 /* Navbar Section CSS */
 
 .navbar {
-    background: rgb(97, 68, 41);
-    backdrop-filter: t;
+    /* background: rgb(97, 68, 41); */
+    background-image: url('/images/brownBack.png');
+    background-size: 7%;
     height: 80px;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,8 @@
 }
 
 #dby__logo {
-    background-color: rgb(231, 231, 114);
+    /* background-color: rgb(231, 231, 114); */
+    background-image: url('/images/yellowBack2.jpg');
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -56,7 +58,12 @@
 }
 
 .navbar__links {
-    color: rgb(231, 231, 114);
+    /* color: rgb(231, 231, 114); */
+    background-image: url('/images/yellowBack2.jpg');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +73,12 @@
 }
 
 .navbar__links:hover {
-    color: rgb(232, 49, 49);
+    background-image: url('/images/redBack.png');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    /* color: rgb(232, 49, 49); */
     transition: all 1s ease;
     transform: translateY(-2px);
 }
@@ -75,7 +87,7 @@
 
 .main {
     background-image: url('/images/mainPic.JPEG');
-    background-size: 1300px 900px;
+    background-size: 1500px 900px;
     
 }
 
@@ -87,12 +99,17 @@
     height: 700px;
     z-index: 30;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1900px;
     padding: 0 50px;
 }
 
 .main__content h1 {
     color: rgb(231, 231, 114);
+    background-image: url('/images/yellowBack2.jpg');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     font-size: 3rem;
     margin-bottom: 130px;
     /* margin-inline: auto; */
