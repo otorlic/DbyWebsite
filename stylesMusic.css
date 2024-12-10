@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New Bold', Courier, monospace;
+}
+
+/* Music Styles CSS */
+
+.music__main {
+    background: rgb(97, 68, 41);
+    max-width: 1440px;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 30px;
+    background-color: rgb(97, 68, 41);
+
+    width: 100%;
+    
+    height: 700px;
+    
+    padding: 0 50px;
+    
+}
+
+.main__img--container {
+    text-align: left;
+}
+
+#main__img {
+    height: 500px;
+    width: 700px;
+}
+
+.main__list--container {
+    margin-left: 50px;
+
+}
+
+.list__name {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.music__menu {
+    
+    display: grid;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    
+    text-decoration: none;
+    max-width: 240px;
+    /* height: 300px; */
+    margin-top: 40px;
+    
+    
+} 
+
+
+.link__button {
+    margin: 10px 0;
+}
+
+.link__button a {
+    text-decoration: none;
+    
+}
+
+.button {
+    display: grid;
+    align-items: center;
+    font-size: 1rem;
+    text-decoration: none;
+    /* max-width: 400px; */
+    height: 3rem;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #141414;
+    color: #fff;
+    
+}
+
+.button:hover {
+    background: #888686;
+    color: #141414;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}  
